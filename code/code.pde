@@ -57,7 +57,7 @@ void draw() {
     colibri.shape.setFill(color(255, 0, 0, alphaColibri));
     piuma.shape.setFill(color(17, 230, 247, alphaPiuma));
   }
-  if (keyPressed && key == ' ') {
+  if (keyPressed && key == ' ') { //alla pressione della barra spaziatrice la piuma diventa trasparente e appare il colbri 
     alphaColibri=alphaColibri+alphaColibriIncreas;
     alphaPiuma=alphaPiuma-alphaPiumaIncrease;
   }
